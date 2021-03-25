@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 ## ALL TOOLS HACKER: IS THE TOOL YOU CAN INSTALL HACKING TOOLS
 ## AUTHOR          : {PRINCE GUTIERREZ}
 ## VERSION         : 3.0
