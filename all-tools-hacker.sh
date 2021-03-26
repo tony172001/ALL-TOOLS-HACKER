@@ -188,8 +188,8 @@ password(){
     echo -e $ "THANKS "
     
 
-    read -p "[!!] Username ? " USERNAME
-    read -p "[!!] Password ? " PASSWORD
+    read -p "[?] Username ? " USERNAME
+    read -p "[?] Password ? " PASSWORD
 
     if [ $USERNAME == "HACKERTOOLS" ]; then
         if [ $PASSWORD == "HACKERTOOLS" ]; then
