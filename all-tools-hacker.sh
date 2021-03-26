@@ -184,9 +184,10 @@ password(){
     echo -e $red"NOTES :PLEASE MESSAGE ME IN MESSENGER TO KNOW USERNAME AND PASSWORD ";
     am start -a android.intent.action.VIEW -d https://m.me/prince.hacker.999.257>> /dev/null 2>&1 
     echo -e $green"PLEASE CHAT ME ON MESSENGER TO KNOW THE USERNAME AND PASSWORD THANKSSSSSS";
+    echo -e $red" I ACTUALLY PUT THE USERNAME AND PASSWORD TO THIS TOOL FIND IT TO LOGIN AND IF YOU DIN'D FIND YOU CAN MESSAGE ME IN MESSENGER TO KNOW THE USERNAME AND PASSWORD";
 
-    read -p "[?] Username ? " USERNAME
-    read -p "[?] Password ? " PASSWORD
+    read -p "[HACKERS-TOOLS] Username @@ " USERNAME
+    read -p "[999000] Password @@ " PASSWORD
 
     if [ $USERNAME == "HACKERS-TOOLS" ]; then
         if [ $PASSWORD == "999000" ]; then
