@@ -178,11 +178,11 @@ echo -e $red"[!] Exit"
 
 password(){
     figlet -f smslant "TOOLS-HACKER" | lolcat
-    echo -e $blue"         {Version:3.0}/n"
+    echo -e $blue"         {Version:3.0}/n";
 
     echo -e $blue"{ PLEASE LOGIN }";
     echo -e $red"Notes: PLEASE LOGIN TO INSTALL ALL TERMUX HACKING TOOL ";
-    echo -e $blue" 
+    echo -e $blue"; 
     
 
     read -p "[!?] Username ? " USERNAME
