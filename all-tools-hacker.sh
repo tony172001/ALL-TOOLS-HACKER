@@ -20,29 +20,29 @@ tools(){
 figlet -f slant "HACKER-TOOLS" | lolcat
 echo  CODED BY:{PG-59} {PRINCE GUTIERREZ}
 echo -e $blue "[U] > Update"
-echo -e $blue "[1] > SQLMAP
-echo -e $blue "[2] > STRIKER
-echo -e $blue "[3] > JohnTheRipper
-echo -e $blue "[4] > RED_HAWK
-echo -e $blue "[5] > FB-BRUTE
-echo -e $blue "[6] > VIRUSX (VIRUS)
-echo -e $blue "[7] > CAM-HACKERS (CCTV)
-echo -e $blue "[8] > HACKLOCK 
-echo -e $blue "[9] > IGHACK
-echo -e $blue "[10] > INFECT (VIRUS)
-echo -e $blue "[11] > VANISH (VIRUS)
-echo -e $blue "[12] > IPDRONE (DRONE LOCATOR)
-echo -e $blue "[13] > KING-HACKING
-echo -e $blue "[14] > TOOL-X
-echo -e $blue "[15] > TOOL-N
-echo -e $blue "[16] > PHONEInfoga
-echo -e $blue "[17] > EmailHarvester
-echo -e $blue "[18] > LAZYMUX
-echo -e $blue "[19] > LAZYBEE
-echo -e $blue "[20] > CARD-NUMBER
-echo -e $blue "[21] > SHELLPHISH
-echo -e $blue "[22] > NEXPHISHER
-echo -e $blue "[23] > ZPHISHER
+echo -e $blue "[1] > SQLMAP"
+echo -e $blue "[2] > STRIKER"
+echo -e $blue "[3] > JohnTheRipper"
+echo -e $blue "[4] > RED_HAWK"
+echo -e $blue "[5] > FB-BRUTE"
+echo -e $blue "[6] > VIRUSX (VIRUS)"
+echo -e $blue "[7] > CAM-HACKERS (CCTV)"
+echo -e $blue "[8] > HACKLOCK" 
+echo -e $blue "[9] > IGHACK"
+echo -e $blue "[10] > INFECT (VIRUS)"
+echo -e $blue "[11] > VANISH (VIRUS)"
+echo -e $blue "[12] > IPDRONE (DRONE LOCATOR)"
+echo -e $blue "[13] > KING-HACKING"
+echo -e $blue "[14] > TOOL-X"
+echo -e $blue "[15] > TOOL-N"
+echo -e $blue "[16] > PHONEfoga"
+echo -e $blue "[17] > EmailHarvester"
+echo -e $blue "[18] > LAZYMUX"
+echo -e $blue "[19] > LAZYBEE"
+echo -e $blue "[20] > CARD-NUMBER"
+echo -e $blue "[21] > SHELLPHISH"
+echo -e $blue "[22] > NEXPHISHER"
+echo -e $blue "[23] > ZPHISHER"
 echo -e $blue "[24] > aircarck-ng
 echo -e $blue "[25] > D-TECT 1
 echo -e $blue "[26] > RECONDOG
@@ -54,7 +54,7 @@ echo -e $blue "[31] > IP-TRACKER
 echo -e $blue "[32] > NGROK
 echo -e $blue "[33] > TERMUX-ALL-PKG (INSTALL ALL TERMUX-PACKAGE)
 echo -e $blue "[34] > METAGOOFIL
-echo -e $blue "[35] > 
+echo -e $blue "[35] > CAMHACK (FRONT CAMERA HACKING TOOLS)
 echo -e $red "[00] > EXIT
 read -p "[PG-59] HACKERS-TOOLS " PG-59
 
@@ -163,6 +163,9 @@ cd $HOME && git clone https://github.com/PG-59/termux-all-pkg && cd ALL-TOOLS-HA
 elif [ $PG-59 == "34" ]; then
 cd $HOME && git clone https://github.com/laramies/metagoofil && cd ALL-TOOLS-HACKER
 
+elif [ $PG-59 == "35" ]; then
+cd $HOME && git clone https://github.com/Devil-Tigers/CamHack && cd ALL-TOOLS-HACKER
+
 elif [ $PG-59 == "00" ]; then
 echo -e $red"[!] Exit"
     fi
@@ -171,7 +174,7 @@ echo -e $red"[!] Exit"
 
 password(){
     figlet -f smslant "TOOLS-HACKER" | lolcat
-    echo -e $blue"         {Version:3.0}\n"
+    echo -e $blue"         {Version:3.0}"
 
     echo -e $blue"{ PLEASE LOGIN }";
     echo -e $red"Notes: PLEASE LOGIN TO INSTALL ALL TERMUX HACKING TOOL ";
@@ -180,7 +183,6 @@ password(){
     am start -a android.intent.action.VIEW -d https://m.me/prince.gutierrez.1656>> /dev/null 2>&1
     echo -e $ "THANKS "
     
-
 
     read -p "[!!] Username ? " USERNAME
     read -p "[!!] Password ? " PASSWORD
