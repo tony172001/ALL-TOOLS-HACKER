@@ -177,26 +177,24 @@ echo -e $red"[!] Exit"
 }
 
 password(){
-    figlet -f smslant "TOOLS-HACKER" | lolcat
-    echo -e $blue"         {Version:3.0}/n";
+    figlet -f smslant "HACKERS-TOOLS" | lolcat
+    echo -e $green"        { VERSION:3.0 }\n"
 
     echo -e $blue"{ PLEASE LOGIN }";
-    echo -e $red"Notes: PLEASE LOGIN TO INSTALL ALL TERMUX HACKING TOOL ";
-    echo -e $blue"; 
-    
+    echo -e $red"NOTES :PLEASE MESSAGE ME IN MESSENGER TO KNOW USERNAME AND PASSWORD ";
 
-    read -p "[!?] Username ? " USERNAME
-    read -p "[!?] Password ? " PASSWORD
+    read -p "[?] Username ? " USERNAME
+    read -p "[?] Password ? " PASSWORD
 
-    if [ $USERNAME == "HACKERTOOLS" ]; then
-        if [ $PASSWORD == "HACKERTOOLS" ]; then
+    if [ $USERNAME == "HACKERS-TOOLS" ]; then
+        if [ $PASSWORD == "999000" ]; then
             tools
         else
-            echo -e $red"[!] INCORRECT USERNAME AND PASSWORD PLEASE CHAT ME IN MESSENGER TO KNOW THE USERNAME AND PASSWORD";
+            echo -e $red"[!] INCORRECT USERNAME AND PASSWORD PLEASE CHAT ME ON MESSENGER TO GET USERNAME AND PASSWORD";
         fi
     else
-        echo -e $red"[!] INCORRECT USERNAME AND PASSWORD PLEASE CHAT ME IN MESSENGER TO KNOW THE USERNAME AND PASSWORD";
-  fi
+        echo -e $red"[!] INCORRECT USERNAME AND PASSWORD PLEASE CHATE ON MESSENGER TO GET THE USERNAME AND PASSWORD";
+    fi
 }
 
 dependencies
