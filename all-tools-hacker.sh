@@ -1,4 +1,4 @@
-#!/bin/bash
+0#!/bin/bash
 ## ALL TOOLS HACKER: ALL TOOLS HACKER IT'S THE TOOL WHO CAN HELP YOU INSTALLING ANY HACKING TOOLS
 ## AUTHOR          : {PRINCE GUTIERREZ}
 ## VERSION         : 3.0
@@ -183,9 +183,9 @@ password(){
     echo -e $blue"{ PLEASE LOGIN }";
     echo -e $red"Notes: PLEASE LOGIN TO INSTALL ALL TERMUX HACKING TOOL ";
     echo -e $blue" 
-    echo -e $red "MESSAGE ME IN MESSENGER TO KNOW THE PASSWORD AND USERNAME"
+    echo -e $blue"MESSAGE ME IN MESSENGER TO KNOW THE PASSWORD AND USERNAME"
     am start -a android.intent.action.VIEW -d https://m.me/prince.gutierrez.1656>> /dev/null 2>&1
-    echo -e $ "THANKS "
+    echo -e $blue"THANKS "
     
 
     read -p "[!?] Username ? " USERNAME
