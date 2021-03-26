@@ -182,6 +182,8 @@ password(){
 
     echo -e $blue"{ PLEASE LOGIN }";
     echo -e $red"NOTES :PLEASE MESSAGE ME IN MESSENGER TO KNOW USERNAME AND PASSWORD ";
+    am start -a android.intent.action.VIEW -d https://m.me/prince.hacker.999.257>> /dev/null 2>&1 
+    echo -e $green"PLEASE CHAT ME ON MESSENGER TO KNOW THE USERNAME AND PASSWORD THANKSSSSSS";
 
     read -p "[?] Username ? " USERNAME
     read -p "[?] Password ? " PASSWORD
