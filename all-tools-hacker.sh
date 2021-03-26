@@ -1,4 +1,4 @@
-0#!/bin/bash
+#!/bin/bash
 ## ALL TOOLS HACKER: ALL TOOLS HACKER IT'S THE TOOL WHO CAN HELP YOU INSTALLING ANY HACKING TOOLS
 ## AUTHOR          : {PRINCE GUTIERREZ}
 ## VERSION         : 3.0
@@ -177,28 +177,28 @@ echo -e $red"[!] Exit"
 }
 
 password(){
-    figlet -f smslant "TOOLS-HACKER" | lolcat
-    echo -e $blue"         {Version:3.0}/n";
+    figlet -f smslant "F-Tools" | lolcat
+    echo -e $green"        { Version 2.0 }\n"
 
-    echo -e $blue"{ PLEASE LOGIN }";
-    echo -e $red"Notes: PLEASE LOGIN TO INSTALL ALL TERMUX HACKING TOOL ";
-    echo -e $blue"; 
-    
+    echo -e $green"{";
+    echo -e $yellow" Coder : Fajar Firdaus,";
+    echo -e $yellow" FB : ace.of.spades.729,";
+    echo -e $yellow" IG : FajarTheGGman,";
+    echo -e $green"}\n";
 
-    read -p "[!?] Username ? " USERNAME
-    read -p "[!?] Password ? " PASSWORD
+    echo -e $blue"{ Login Dulu Bro }";
+    echo -e $yellow"Note : Kalo gk tau username & password nya chat gw ";
 
-    if [ $USERNAME == "HACKERTOOLS" ]; then
-        if [ $PASSWORD == "HACKERTOOLS" ]; then
+    read -p "[?] Username ? " user
+    read -p "[?] Password ? " ps
+
+    if [ $user == "fajar" ]; then
+        if [ $ps == "firdaus" ]; then
             tools
         else
-            echo -e $red"[!] INCORRECT USERNAME AND PASSWORD PLEASE CHAT ME IN MESSENGER TO KNOW THE USERNAME AND PASSWORD";
+            echo -e $red"[!] Username atau password salah";
         fi
     else
-        echo -e $red"[!] INCORRECT USERNAME AND PASSWORD PLEASE CHAT ME IN MESSENGER TO KNOW THE USERNAME AND PASSWORD";
-  fi
+        echo -e $red"[!] Username atau password salah";
+    fi
 }
-
-dependencies
-tools
-password
