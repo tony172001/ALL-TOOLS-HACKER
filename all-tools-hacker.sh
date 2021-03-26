@@ -43,23 +43,24 @@ echo -e $blue "[20] > CARD-NUMBER"
 echo -e $blue "[21] > SHELLPHISH"
 echo -e $blue "[22] > NEXPHISHER"
 echo -e $blue "[23] > ZPHISHER"
-echo -e $blue "[24] > aircarck-ng
-echo -e $blue "[25] > D-TECT 1
-echo -e $blue "[26] > RECONDOG
-echo -e $blue "[27] > WEEMAN
-echo -e $blue "[28] > XATTACKER
-echo -e $blue "[29] > EASYHACK
-echo -e $blue "[30] > ROUTERSPLOIT
-echo -e $blue "[31] > IP-TRACKER
-echo -e $blue "[32] > NGROK
-echo -e $blue "[33] > TERMUX-ALL-PKG (INSTALL ALL TERMUX-PACKAGE)
-echo -e $blue "[34] > METAGOOFIL
-echo -e $blue "[35] > CAMHACK (FRONT CAMERA HACKING TOOLS)
-echo -e $red "[00] > EXIT
-read -p "[PG-59] HACKERS-TOOLS " PG-59
+echo -e $blue "[24] > aircarck-ng"
+echo -e $blue "[25] > D-TECT 1"
+echo -e $blue "[26] > RECONDOG"
+echo -e $blue "[27] > WEEMAN"
+echo -e $blue "[28] > XATTACKER"
+echo -e $blue "[29] > EASYHACK"
+echo -e $blue "[30] > ROUTERSPLOIT"
+echo -e $blue "[31] > IP-TRACKER"
+echo -e $blue "[32] > NGROK"
+echo -e $blue "[33] > TERMUX-ALL-PKG (INSTALL ALL TERMUX-PACKAGE)"
+echo -e $blue "[34] > METAGOOFIL"
+echo -e $blue "[35] > CAMHACK (FRONT CAMERA HACKING TOOLS)"
+echo -e $blue "[36] > SOCIALFISH"
+echo -e $red "[00] > EXIT"
+read -p "[PG-59] HACKING-TOOLS " PG-59
 
 if [ $PG-59 == "U" ]; then
-cd $HOME && git clone https://github.com/PG-59/ALL-TOOLS-HACKER && cd ALL-TOOLS-HACKER
+cd $HOME && git clone https://github.com/PG-59/ALL-TOOLS-HACKER && cd ALL-TOOLS-HACKER && bash all-tools-hacker.sh
 
 elif [ $PG-59 == "1" ]; then
 cd $HOME && git clone https://github.com/sqlmapproject/sqlmap && cd ALL-TOOLS-HACKER
@@ -166,6 +167,9 @@ cd $HOME && git clone https://github.com/laramies/metagoofil && cd ALL-TOOLS-HAC
 elif [ $PG-59 == "35" ]; then
 cd $HOME && git clone https://github.com/Devil-Tigers/CamHack && cd ALL-TOOLS-HACKER
 
+elif [ $PG-59 == "36" ]; then
+cd $HOME && git clone https://github.com/UndeadSec/SocialFish && cd ALL-TOOLS-HACKER
+
 elif [ $PG-59 == "00" ]; then
 echo -e $red"[!] Exit"
     fi
@@ -191,10 +195,10 @@ password(){
         if [ $PASSWORD == "HACKERTOOLS" ]; then
             tools
         else
-            echo -e $red"[!] INCORRECT USERNAME AND PASSWORD";
+            echo -e $red"[!] INCORRECT USERNAME AND PASSWORD PLEASE CHAT ME IN MESSENGER TO KNOW THE USERNAME & PASSWORD";
         fi
     else
-        echo -e $red"[!] INCORRECT USERNAME AND PASSWORD";
+        echo -e $red"[!] INCORRECT USERNAME AND PASSWORD PLEASE CHAT ME IN MESSENGER TO KNOW THE USERNAME & PASSWORD";
   fi
 }
 
