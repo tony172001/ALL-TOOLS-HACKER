@@ -178,7 +178,7 @@ echo -e $red"[!] Exit"
 
 password(){
     figlet -f smslant "TOOLS-HACKER" | lolcat
-    echo -e $blue"         {Version:3.0}"
+    echo -e $blue"         {Version:3.0}/n"
 
     echo -e $blue"{ PLEASE LOGIN }";
     echo -e $red"Notes: PLEASE LOGIN TO INSTALL ALL TERMUX HACKING TOOL ";
@@ -188,8 +188,8 @@ password(){
     echo -e $ "THANKS "
     
 
-    read -p "[?] Username ? " USERNAME
-    read -p "[?] Password ? " PASSWORD
+    read -p "[!?] Username ? " USERNAME
+    read -p "[!?] Password ? " PASSWORD
 
     if [ $USERNAME == "HACKERTOOLS" ]; then
         if [ $PASSWORD == "HACKERTOOLS" ]; then
