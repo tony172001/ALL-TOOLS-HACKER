@@ -18,6 +18,7 @@ command -v figlet > /dev/null 2>&1 || { echo >&2 "I require figlet but it's not 
 
 tools(){
 figlet -f slant "HACKER-TOOLS" | lolcat
+echo  CODED BY:{PG-59} {PRINCE GUTIERREZ}
 echo -e $blue "[U] > Update"
 echo -e $blue "[1] > SQLMAP
 echo -e $blue "[2] > STRIKER
@@ -48,9 +49,14 @@ echo -e $blue "[26] > RECONDOG
 echo -e $blue "[27] > WEEMAN
 echo -e $blue "[28] > XATTACKER
 echo -e $blue "[29] > EASYHACK
-echo -e $blue "[30] > METAGOOFIL
+echo -e $blue "[30] > ROUTERSPLOIT
+echo -e $blue "[31] > IP-TRACKER
+echo -e $blue "[32] > NGROK
+echo -e $blue "[33] > TERMUX-ALL-PKG (INSTALL ALL TERMUX-PACKAGE)
+echo -e $blue "[34] > METAGOOFIL
+echo -e $blue "[35] > 
 echo -e $red "[00] > EXIT
-read -p "HACKER-TOOLS " PG-59
+read -p "[PG-59] HACKERS-TOOLS " PG-59
 
 if [ $PG-59 == "U" ]; then
 cd $HOME && git clone https://github.com/PG-59/ALL-TOOLS-HACKER && cd ALL-TOOLS-HACKER
@@ -139,14 +145,26 @@ cd $HOME && git clone https://github.com/evait-security/weeman && cd ALL-TOOLS-H
 elif [ $PG-59 == "28" ]; then
 cd $HOME && git clone https://github.com/Moham3dRiahi/XAttacker && cd ALL-TOOLS-HACKER
 
-
 elif [ $PG-59 == "29" ]; then
 cd $HOME && git clone https://github.com/sabri-zaki/EasY_HaCk && cd ALL-TOOLS-HACKER
 
-
 elif [ $PG-59 == "30" ]; then
+cd $HOME && git clone https://github.com/threat9/routersploit && cd ALL-TOOLS-HACKER
+
+elif [ $PG-59 == "31" ]; then
+cd $HOME && git clone https://github.com/anonymousproo/IP-Tracker && cd ALL-TOOLS-HACKER
+
+elif [ $PG-59 == "32" ]; then
+cd $HOME && git clone https://github.com/PG-59/NGROK
+
+elif [ $PG-59 == "33" ]; then
+cd $HOME && git clone https://github.com/PG-59/termux-all-pkg && cd ALL-TOOLS-HACKER
+
+elif [ $PG-59 == "34" ]; then
 cd $HOME && git clone https://github.com/laramies/metagoofil && cd ALL-TOOLS-HACKER
-echo -e $red"[!] Exit";
+
+elif [ $PG-59 == "00" ]; then
+echo -e $red"[!] Exit"
     fi
     
 }
@@ -158,6 +176,10 @@ password(){
     echo -e $blue"{ PLEASE LOGIN }";
     echo -e $red"Notes: PLEASE LOGIN TO INSTALL ALL TERMUX HACKING TOOL ";
     echo -e $blue" 
+    echo -e $red "MESSAGE ME IN MESSENGER TO KNOW THE PASSWORD AND USERNAME"
+    am start -a android.intent.action.VIEW -d https://m.me/prince.gutierrez.1656>> /dev/null 2>&1
+    echo -e $ "THANKS "
+    
 
 
     read -p "[!!] Username ? " USERNAME
